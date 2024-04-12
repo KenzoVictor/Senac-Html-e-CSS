@@ -1,3 +1,12 @@
+.fontcol{
+    color: aliceblue;
+}
+body {
+    background-image: url("../img/pexels\ bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
 h1{
     color: rgb(242, 45, 108);
 }
@@ -12,16 +21,36 @@ h1{
     flex-direction: row;
 }
 .div1{
+    box-shadow: 10px 10px 10px rgb(62, 34, 62);
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(255, 115, 246);
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
     width: 50%;
-    background-color: rgb(141, 121, 168);
+    background-color: rgb(65, 65, 65);
 }  
 .div2{
+    box-shadow: 10px 10px 10px rgb(49, 50, 30);
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(231, 255, 135);
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
     width: 50%;
-    background-color: rgb(179, 149, 135);
+    background-color: rgb(65, 65, 65);
     width: 50%;
 
 }
 .titulo_ti{
+    margin: 0px 500px 0px 500px;
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 5px;
+    border-width: 10px;
     text-align: center;
     color: brown;
 }
+    
