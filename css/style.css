@@ -11,13 +11,17 @@ h1{
     display: flex;
     flex-direction: row;
 }
-.bg{
-    display: flex;
-    background-color: rgb(141, 121, 168);
+.div1{
     width: 50%;
-}
-.bg2{
-    display: flex;
+    background-color: rgb(141, 121, 168);
+}  
+.div2{
+    width: 50%;
     background-color: rgb(179, 149, 135);
-    width: ;
+    width: 50%;
+
+}
+.titulo_ti{
+    text-align: center;
+    color: brown;
 }
