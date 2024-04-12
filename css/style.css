@@ -1,0 +1,23 @@
+h1{
+    color: rgb(242, 45, 108);
+}
+.h1_titulo{
+    color: rgb(13, 240, 210);
+}
+#h1_inicial{
+    color: rgb(127, 22, 255);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.bg{
+    display: flex;
+    background-color: rgb(141, 121, 168);
+    width: 50%;
+}
+.bg2{
+    display: flex;
+    background-color: rgb(179, 149, 135);
+    width: ;
+}
