@@ -8,6 +8,7 @@ body {
 }   
 
 h1{
+    width: 200px;
     color: rgb(242, 45, 108);
 }
 .h1_titulo{
@@ -19,6 +20,7 @@ h1{
 .container{
     display: flex;
     flex-direction: row;
+    margin-top: 90px;
 }
 .div1{
     box-shadow: 10px 10px 10px rgb(62, 34, 62);
@@ -47,13 +49,16 @@ h1{
 
 }
 .titulo_ti{
-    margin: 0px 500px 0px 500px;
     border-color: blueviolet;
     border-style: double;
     border-radius: 5px;
     border-width: 10px;
-    text-align: center;
+     text-align: center;
     color: brown;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
 }
 .div1:hover{
     box-shadow: 10px 10px 10px rgb(255, 138, 255);
@@ -72,4 +77,20 @@ img1{
     justify-content: center;
     align-items: center;
     height: 30vh;
+}
+.table1{
+    display: block;
+    margin: auto;
+    border-collapse: collapse;
+}
+td,th{
+    text-align: center;
+    border: 1px solid black;
+}
+td{
+    background-color: rgb(255, 222, 161);
+}
+th{
+
+    background-color: palevioletred;
 }
