@@ -80,7 +80,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #000a64;
+    background-color: rgba(0, 10, 100, 0.711);
     top: 0;
     position: fixed;
     z-index: 50;
