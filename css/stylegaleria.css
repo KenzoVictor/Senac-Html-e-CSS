@@ -91,6 +91,7 @@ header{
     flex-direction: row;
     align-items: center;
     gap: 100px ;
+    margin-right: 25vh;
 }
 .nav-item{
     font-family: Arial, Helvetica, sans-serif;
@@ -98,6 +99,38 @@ header{
     font-weight: 500;
     list-style-type: none;
     color: rgb(143, 177, 255);
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    margin-right: 250px;
+}
+ .div-icon{
+    width: 25%;
+    
+
+}
+.div-nav{
+    width: 50%;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 255, 255);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(255, 158, 211);
+}
+a{
+    text-decoration: none;
+}
+.nav-item:hover{
+    transform: scale(1.3);
 }
 
 
