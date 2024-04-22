@@ -16,14 +16,16 @@
         <nav>
             <div class="div-nav">
                 <ul class="nav">
-
-                    <li class="nav-item">Notícias</li>
+                    <a href="#login">
+                    <li class="nav-item">Login</li>
+                    </a>
                     <a href="#galeria-img">
                         <li class="nav-item">Galeria Tubarões</li>
                     </a>
                     <a href="#galeria-vids">
                     <li class="nav-item">Galeria Vídeos</li>
                     </a>
+                    
                 </ul>
             </div>
         </nav>
@@ -92,6 +94,47 @@
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </a>
             </div>
+        </section>
+        <section id="login">
+            <form class="form">
+                <label class="nomeLabel" for="">Nome</label>
+                <input class="inputLogin" type="text" name="input" placeholder="Digite aqui">
+
+                <label class="nomeLabel" for="">E-mail</label>
+                <input class="inputLogin" type="text" name="input" placeholder="Digite aqui">
+
+                <label class="nomeLabel" for="">Idade</label>
+
+                <div class="button">
+                    <input type="radio" name="age" value="novo">
+                    <label class="nomeradio" for="">Novo</label>
+
+                    <input type="radio" name="age" value="maismenosnovo">
+                    <label class="nomeradio" for="">Mais ou menos novo</label>
+
+                    <input type="radio" name="age" value="velho">
+                    <label class="nomeradio" for="">Velho</label>
+                    
+                </div>
+                <label class="nomeLabel" for="">Checkmarks</label>
+                <div class="checkbox">
+                    <input type="checkbox" name="opcoes" value="1">
+                    <label class="nomeradio" for="">Thing 1</label>
+
+                    <input type="checkbox" name="opcoes" value="2">
+                    <label class="nomeradio" for="">Thing 2</label>
+
+                    <input type="checkbox" name="opcoes" value="3">
+                    <label class="nomeradio" for="">Thing 3</label>
+                </div>
+
+
+                <label class="nomeLabel" for="">Sugestão</label>
+                <textarea class="textarea" type="text"></textarea>
+
+                <button class="enviar">Enviar</button>
+            </form>
+
         </section>
     </main>
     <footer>
