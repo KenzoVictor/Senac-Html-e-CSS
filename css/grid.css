@@ -1,0 +1,56 @@
+.grid{
+    padding-top: 50px;
+    display: grid;
+}
+.item{
+    margin: 5px;
+    background: #ffbdbd;
+    text-align: center;
+    font-size: medium;
+}
+#griddisplay{
+    padding-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.it2{
+    background: #18fff7;
+}
+.it3{
+    background: #ff0ae7;
+}
+.it4{
+    background: #fcf808;
+}
+.grid-columns{
+    grid-template-columns: 600px 600px;
+}
+.grid-rows{
+    grid-template-rows: 100px repeat(3, 50px);
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    grid-area: logo;
+}
+.nav{
+    grid-area: nav;
+}
+.content{
+    grid-area: content;
+}
+.sidenav{
+    grid-area: sidenav;
+}
+.advert{
+    grid-area: advert;
+}
+.footer{
+    grid-area: footer;
+}
+.grid-areas{
+    grid-template-areas:
+    "logo nav nav"
+    "sidenav content advert"
+    "sidenav footer footer"
+    ;
+}
