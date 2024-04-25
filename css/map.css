@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+}
+.grid{
+    padding-top: 50px;
+    display: grid;
+}
+.it{
+    background: rgb(255, 150, 150);
+    margin: 5px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.content-main{
+    grid-area: content-main;
+}
+.content-right{
+    grid-area: content-right;
+}
+.content-left{
+    grid-area: content-left;
+}
+.footer{
+    grid-area: footer;
+}
+.grid-areas{
+    grid-template:
+    "header header header" 100px
+    "nav nav nav" 40px
+    "content-left content-main content-right" 350px
+    "footer footer footer" 60px
+    / 0.5fr 2fr 0.5fr
+    ;
+}
