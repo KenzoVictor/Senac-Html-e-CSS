@@ -23,12 +23,22 @@
     "footer footer footer" 100px
     / 100px 1fr 100px
     ;
+    @media screen and (max-width: 780px){
+            grid-template:
+            "header" 90px
+            "nav" 90px
+            "section" 1fr
+            "aside" 90px
+            "footer" 150px
+            / 1fr
+            ;
+    }
 }
-.header{
+.headerA{
     padding-top: 50px;
     grid-area: header;
 }
-.nav{
+.navA{
     padding-top: 25px;
     grid-area: nav;
 }
@@ -48,11 +58,11 @@
     margin: 5px;
 }
 
-.aside{
+.asideA{
     padding-top: 25px;
     grid-area: aside;
 }
-.footer{
+.footerA{
     padding-top: 20px;
     grid-area: footer;
 }
@@ -65,3 +75,4 @@
 .footer-section{
     padding-top: 35px;
 } 
+
