@@ -1,5 +1,33 @@
+body{
+    background-color: rgb(231, 226, 220) !important;
+}
+header{
+    background-color: #e18451;
+}
 .container-header{
     display: flex;
     align-content: center;
     align-items: center;
+}
+.center-slide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+conteiner-galeria{
+    display: flex;
+    flex-direction:row;
+}
+
+.objetos-decoracao{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner-galeria{
+    padding-left: 12vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+  
 }
